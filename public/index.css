@@ -1,0 +1,69 @@
+.mainFlex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FF6F00;
+    width: 100%;
+    opacity: 0.85;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    opacity: 1;
+    border-radius: 30px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.videoContainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding:0;
+    margin:0;
+    left: 0px;
+    top: 0px;
+    z-index: -1000;
+    overflow:hidden;
+    }
+
+.workoutVid {
+    min-height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    filter: blur(5px);
+}
+
+#vector1, #vector2 {
+    z-index: -10;
+    position: absolute;
+    /* width: 100%; */
+    /* height: 666px; */
+    left: 0px;
+    bottom: -100px;
+
+    /* background: rgba(255, 111, 0, 0.3); */
+}
+
+.btn {
+    margin-bottom: 20px;
+}
